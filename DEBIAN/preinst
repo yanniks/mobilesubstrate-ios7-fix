@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ ! -f /etc/launchd.conf ]; then
+    echo "fixing Mobile Substrate installation..."
+    /var/lib/dpkg/info/mobilesubstrate.extrainst_ upgrade
+    echo "done!"
+fi
