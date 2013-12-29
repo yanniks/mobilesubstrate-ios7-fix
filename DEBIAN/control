@@ -1,0 +1,12 @@
+Package: de.yanniks.substratefix
+Name: Mobile Substrate fix
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Starts Mobile Substrate on bootup
+Homepage: http://yanniks.de
+Maintainer: Yannik Ehlert <kontakt@yanniks.de>
+Author: Yannik Ehlert <kontakt@yanniks.de>
+Section: System
+Conflicts: mobilesubstrate (>> 0.9.4001)
+Depends: mobilesubstrate
+Depiction: http://blog.yanniks.de/cydia-repo/substratefix.html

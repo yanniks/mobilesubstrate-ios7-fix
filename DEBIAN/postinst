@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "setup done!"
+echo "please remove this package before installing an official Mobile Substrate update."
+echo 0
